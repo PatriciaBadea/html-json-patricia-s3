@@ -21,7 +21,7 @@ let cvSchema = {
         },
         skills: {
             type: 'array',
-            minItems: 1,
+            minItems: 3,
             uniqueItems: true,
             items: {
                 type: 'string'
